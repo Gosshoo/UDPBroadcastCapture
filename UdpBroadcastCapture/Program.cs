@@ -24,6 +24,8 @@ namespace UdpBroadcastCapture
 
 
 
+
+
                 TcpClient connectionSocket = serverSocket.AcceptTcpClient();
                 Console.WriteLine("Server activated");
                 Stream ns = connectionSocket.GetStream();
